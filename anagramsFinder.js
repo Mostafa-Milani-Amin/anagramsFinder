@@ -1,1 +1,1 @@
-const anagramsFinder = (s1, s2) => [...s1.toLowerCase()].sort().join('').trim() === [...s2.toLowerCase()].sort().join('').trim();
+const anagramsFinder = (w1, w2) => [...w1.toLowerCase()].sort().join('') === [...w2.toLowerCase()].sort().join('');
